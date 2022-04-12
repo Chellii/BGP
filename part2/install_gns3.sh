@@ -16,12 +16,12 @@ sudo add-apt-repository \
    $(lsb_release -cs) stable"
 sudo apt update
 sudo apt install -y docker-ce
-sudo usermod -aG sudo chelli
-sudo usermod -aG docker chelli
-sudo usermod -aG ubridge chelli
-sudo usermod -aG libvirt chelli
-sudo usermod -aG wireshark chelli
-sudo usermod -aG kvm chelli
+sudo usermod -aG sudo bgp
+sudo usermod -aG docker bgp
+sudo usermod -aG ubridge bgp
+sudo usermod -aG libvirt bgp
+sudo usermod -aG wireshark bgp
+sudo usermod -aG kvm bgp
 sudo chmod +x /usr/bin/ubridge
 newgrp docker 
 sudo chmod +x /usr/bin/dumpcap

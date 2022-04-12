@@ -9,6 +9,7 @@ docker stop $host_wil
 docker commit $host_wil host_cel-oiri_1
 docker commit $host_wil host_cel-oiri_2
 
+
 ### Creat Routeur_wil ###
 docker pull frrouting/frr
 docker run -d frrouting/frr
@@ -38,4 +39,5 @@ docker stop $routeur_wil
 docker commit $routeur_wil routeur_cel-oiri_1
 docker commit $routeur_wil routeur_cel-oiri_2
 
-#scp misaki@10.12.100.9:/home/misaki/Desktop/Test/Test.gns3 .
+docker commit $routeur_wil routeur_cel-oiri_3
+docker commit $routeur_wil routeur_cel-oiri_4

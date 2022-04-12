@@ -1,0 +1,478 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "part2_group",
+    "project_id": "20f8a6ab-e073-43f6-808f-ed78e954d5dc",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": false,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "b265ea53-5ae5-48ba-94eb-27656e776779",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e0</text></svg>",
+                "x": -50,
+                "y": -95,
+                "z": 2
+            },
+            {
+                "drawing_id": "1cfb55bf-a12a-4f96-986a-5b7a86989966",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e0</text></svg>",
+                "x": -92,
+                "y": -47,
+                "z": 2
+            },
+            {
+                "drawing_id": "f32aa6e7-c156-443b-bd44-16de4f86bcf6",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e0</text></svg>",
+                "x": -162,
+                "y": 61,
+                "z": 2
+            },
+            {
+                "drawing_id": "c53bc13c-77d4-4980-8880-5885d1481564",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e0</text></svg>",
+                "x": 130,
+                "y": 59,
+                "z": 2
+            },
+            {
+                "drawing_id": "1558a407-4207-461e-b97c-52a09a272624",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e1</text></svg>",
+                "x": 4,
+                "y": -97,
+                "z": 2
+            },
+            {
+                "drawing_id": "5b2c680c-bf32-45ad-ab70-8ff62f026c01",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e1</text></svg>",
+                "x": 100,
+                "y": 9,
+                "z": 2
+            },
+            {
+                "drawing_id": "2f7734ed-38e7-44af-88f0-4e595c99ad4a",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e1</text></svg>",
+                "x": -142,
+                "y": 13,
+                "z": 2
+            },
+            {
+                "drawing_id": "8c7c1da6-9f0d-494b-9097-e837a74f1335",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"25\" width=\"25\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e0</text></svg>",
+                "x": 46,
+                "y": -51,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "220d7fe8-2741-4eac-b439-d7fc9cda2df2",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 55,
+                            "y": 6
+                        },
+                        "node_id": "793b89a4-edbb-4f29-9e02-70c0433c48eb",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 5,
+                            "y": 42
+                        },
+                        "node_id": "e1dfed21-4fd6-4787-841e-5a087590ef8a",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d3baba64-2cff-4656-aceb-0a3cdef627eb",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": -4,
+                            "y": 6
+                        },
+                        "node_id": "216ef0a3-0b32-42a9-8c64-5bafde64b581",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 65,
+                            "y": 42
+                        },
+                        "node_id": "e1dfed21-4fd6-4787-841e-5a087590ef8a",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "ba95eb01-e22c-4cf9-817e-e36585dff82f",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth1",
+                            "x": 47,
+                            "y": 66
+                        },
+                        "node_id": "216ef0a3-0b32-42a9-8c64-5bafde64b581",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 10,
+                            "y": -4
+                        },
+                        "node_id": "1f32ebf2-a10b-4a97-b918-a272fa00244a",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d9ed731d-fc58-4467-894c-319dadc7e73a",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth1",
+                            "x": 7,
+                            "y": 68
+                        },
+                        "node_id": "793b89a4-edbb-4f29-9e02-70c0433c48eb",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 50,
+                            "y": -6
+                        },
+                        "node_id": "04a13dee-d0cd-4f75-a712-ca3d119f533a",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5009,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Switch1_cel-oiri",
+                    "x": -26,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Switch1_cel-oiri",
+                "node_id": "e1dfed21-4fd6-4787-841e-5a087590ef8a",
+                "node_type": "ethernet_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "name": "Ethernet0",
+                            "port_number": 0,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet1",
+                            "port_number": 1,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet2",
+                            "port_number": 2,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet3",
+                            "port_number": 3,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet4",
+                            "port_number": 4,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet5",
+                            "port_number": 5,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet6",
+                            "port_number": 6,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet7",
+                            "port_number": 7,
+                            "type": "access",
+                            "vlan": 1
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "template_id": "1966b864-93e7-32d5-965f-001384eec461",
+                "width": 72,
+                "x": -45,
+                "y": -139,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5010,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 66,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "routeur_cel-oiri-3",
+                    "x": -55,
+                    "y": -31
+                },
+                "locked": false,
+                "name": "routeur_cel-oiri-3",
+                "node_id": "793b89a4-edbb-4f29-9e02-70c0433c48eb",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 2,
+                    "aux": 5011,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "19d4659bd1a50fb278e7f53b3d0f730a9125d9b9fc176b33a1516c674d490455",
+                    "environment": null,
+                    "extra_hosts": null,
+                    "extra_volumes": [],
+                    "image": "routeur_cel-oiri_3:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/classic/route_switch_processor.svg",
+                "template_id": "acc313a4-b357-4986-9d14-f5f7191a6a94",
+                "width": 51,
+                "x": -153,
+                "y": -53,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5012,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 66,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "routeur_cel-oiri-4",
+                    "x": -25,
+                    "y": -31
+                },
+                "locked": false,
+                "name": "routeur_cel-oiri-4",
+                "node_id": "216ef0a3-0b32-42a9-8c64-5bafde64b581",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 2,
+                    "aux": 5013,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "540cb003f34924d3504db0183e71808a2e9e187b5fcf4fb1dd96ab9116763572",
+                    "environment": null,
+                    "extra_hosts": null,
+                    "extra_volumes": [],
+                    "image": "routeur_cel-oiri_4:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/classic/route_switch_processor.svg",
+                "template_id": "e69b6eb4-135e-402e-b5f4-98449f8204b1",
+                "width": 51,
+                "x": 83,
+                "y": -55,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5014,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "host_cel-oiri-1",
+                    "x": -27,
+                    "y": 61
+                },
+                "locked": false,
+                "name": "host_cel-oiri-1",
+                "node_id": "04a13dee-d0cd-4f75-a712-ca3d119f533a",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5015,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "d459e6e60765f688313dd6ff998aae54f5127f6932ff6b24bfe20a8409714cfc",
+                    "environment": null,
+                    "extra_hosts": null,
+                    "extra_volumes": [],
+                    "image": "host_cel-oiri_1:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/docker_guest.svg",
+                "template_id": "67b19936-c1a7-473a-87d6-22b4c0fac8cf",
+                "width": 65,
+                "x": -221,
+                "y": 69,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5016,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "host_cel-oiri-2",
+                    "x": -27,
+                    "y": 57
+                },
+                "locked": false,
+                "name": "host_cel-oiri-2",
+                "node_id": "1f32ebf2-a10b-4a97-b918-a272fa00244a",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5017,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "84a6357d7772cdf47897cab246f8c75bff19f220333dadc2c4e602f8d980e11b",
+                    "environment": null,
+                    "extra_hosts": null,
+                    "extra_volumes": [],
+                    "image": "host_cel-oiri_2:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/docker_guest.svg",
+                "template_id": "2fd2ef46-1955-47ef-ac41-eb5c8a9a72b3",
+                "width": 65,
+                "x": 155,
+                "y": 77,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.31",
+    "zoom": 100
+}
